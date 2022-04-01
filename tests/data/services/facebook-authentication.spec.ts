@@ -6,7 +6,7 @@ import { FacebookAccount } from '@/domain/models'
 import { AuthenticationError } from '@/domain/models/errors'
 
 import { mock, MockProxy } from 'jest-mock-extended'
-import { mocked } from 'ts-jest/utils'
+import { mocked } from 'jest-mock'
 
 jest.mock('@/domain/models/facebook-account')
 
